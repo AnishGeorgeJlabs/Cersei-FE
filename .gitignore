@@ -4,5 +4,6 @@
 node_modules/
 platforms/
 plugins/
-.idea
-www/lib/
+www/
+!www/img/
+src/sass/.sass-cache/

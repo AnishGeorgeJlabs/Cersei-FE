@@ -1,4 +1,10 @@
 {
   "name": "CerseiFE",
-  "app_id": ""
+  "app_id": "",
+  "gulpStartupTasks": [
+    "watch"
+  ],
+  "watchPatterns": [
+    "src/**/*"
+  ]
 }
