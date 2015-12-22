@@ -8,5 +8,7 @@ html
     link(href='css/app.min.css' rel='stylesheet')
     script(src='cordova.js')
     script(src='js/completeApp.min.js')
-  body
-    h1 Hello
+  body(ng-app='app')
+    ion-nav-bar.bar-dark
+      ion-nav-back-button
+    ion-nav-view

@@ -1,0 +1,20 @@
+ion-view(title='Tabs Controller')
+  ion-tabs.tabs-icon-top
+    ion-tab(
+    title='tab1'
+    icon-on='ion-ios-bell'
+    icon-off='ion-ios-bell-outline'
+    badge='badges.new'
+    badge-style='badge-assertive'
+    href='#/tab/tab1')
+      ion-nav-view(name='tab1')
+    ion-tab(
+    title='tab2'
+    icon-on='ion-ios-stopwatch'
+    icon-off='ion-ios-stopwatch-outline'
+    badge-style='badge-stable'
+    badge='badges.current'
+    href='#/tab/tab2')
+      ion-nav-view(name='tab2')
+
+
